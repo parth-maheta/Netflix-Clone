@@ -1,0 +1,312 @@
+* {
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(assests/imgs/bg.jpg);
+  height: 644px;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  background-position: center center;
+  position: relative;
+}
+
+.main .box {
+  height: 644px;
+  background-color: black;
+  opacity: 0.44;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav select {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(248, 243, 243, 0.021);
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  width: 150px;
+  height: 42px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+option {
+  color: black;
+  background-color: transparent;
+}
+nav button {
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+.button {
+  background-color: red;
+  color: white;
+}
+nav span img {
+  color: red;
+  width: 175px;
+  position: relative;
+  z-index: 10;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  max-width: 60vw;
+  height: 100px;
+  min-width: auto;
+}
+.menu-toggle {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+.text > :first-child {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.text > :nth-child(2) {
+  text-align: center;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text > :nth-child(3) {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 23px;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.email input {
+  padding: 7px 101px 8px 14px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: rgba(14, 13, 13, 0.4);
+  border: 2px solid rgba(105, 105, 105, 0.6);
+  height: 40px;
+  width: 250px;
+}
+.email button {
+  background-color: red;
+  color: white;
+  padding: 3px 8px;
+  height: 60px;
+  width: 200px;
+  font-size: 28px;
+  border-radius: 4px;
+  font-weight: 550;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+.sep {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 75vw;
+  margin: auto;
+  color: white;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secimg video {
+  position: absolute;
+  top: 51px;
+  left: 34px;
+  right: 0;
+}
+.first .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+.first > .content :first-child {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.first > .content :nth-child(2) {
+  font-size: 28px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+.second {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 324px;
+  height: 102px;
+  position: relative;
+  margin: auto;
+  border: 1.5px solid white;
+  border-radius: 13px;
+  background-color: black;
+}
+.card img {
+  width: 61px;
+  height: 77px;
+  top: 20px;
+  right: 60px;
+  bottom: 60px;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 26px;
+  padding-right: 23px;
+  padding-left: 0px;
+  gap: 9px;
+}
+.third .secimg img {
+  position: relative;
+  z-index: 10;
+  width: 485px;
+}
+.third .secimg video {
+  position: absolute;
+  left: 16%;
+  top: 5%;
+  right: 0;
+  width: 308px;
+}
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+section.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+section.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px;
+}
+
+footer .questions {
+  padding: 34px 0;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
